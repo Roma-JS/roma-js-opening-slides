@@ -6,10 +6,7 @@
 
 .slidev-layout {
   background-color: #ffb200;
-
-  h1 {
-    color: var(--slidev-theme-primary);
-  }
+  color: #222;
 
   h1 + p {
     @apply -mt-2 opacity-80 mb-4;
