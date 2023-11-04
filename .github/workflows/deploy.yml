@@ -33,7 +33,7 @@ jobs:
         run:  npm i -g @slidev/cli
 
       - name: Build
-        run: slidev build --base /<name_of_repo>/
+        run: slidev build --base /roma-js-opening-slides/
 
       - uses: actions/configure-pages@v3
 
