@@ -2,6 +2,7 @@
   "name": "romajs-intro",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@8.7.5",
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
