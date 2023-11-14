@@ -3,6 +3,10 @@
   --logo-width: 150px;
 }
 
+.slidev-vclick-hidden .logo {
+  display: none;
+}
+
 .logo {
   margin: auto;
   border-radius: 17px;
