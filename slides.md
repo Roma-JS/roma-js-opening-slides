@@ -27,9 +27,14 @@ fonts:
 
 La community di appassionati Javascript a Roma
 
+<v-click>
+
 <div class="abs-br m-6 flex gap-2">
   <Logo />
 </div>
+<Confetti />
+
+</v-click>
 
 ---
 
