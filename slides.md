@@ -52,6 +52,28 @@ RomaJS è una community di appassionati e professionisti del mondo tech.
 </v-clicks>
 
 ---
+layout: two-cols
+---
+
+# I nostri contatti
+
+<ul class="mt-7">
+  <li class="flex gap-2 text-2xl"><img width="36" src="/media/social/discord.svg" alt="discord logo" />Discord</li>
+  <li class="flex gap-2 text-2xl"><img width="36" src="/media/social/github.svg" alt="github logo" />Github</li>
+  <li class="flex gap-2 text-2xl"><img width="36" src="/media/social/facebook.svg" alt="facebook logo"/>Facebook </li>
+  <li class="flex gap-2 text-2xl"><img width="36" src="/media/social/twitter-square.svg" alt="twitter logo" />Twitter</li>
+</ul>
+
+::right::
+
+<div class="flex flex-col justify-center items-center w-full mt-16">
+<img width="240" class="rounded-md border-4 border-current" src="/media/qrcode/qrcode-romajs-org.svg" alt="https://romajs.org" />
+<p class="text-2xl !leading-6 text-center">
+Trovate tutti i nostri contatti sul sito <strong><a href="https://romajs.org">https://romajs.org</a></strong>
+</p>
+</div>
+
+---
 layout: intro
 ---
 
