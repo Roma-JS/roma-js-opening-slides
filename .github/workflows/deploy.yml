@@ -8,6 +8,8 @@ on:
 
 jobs:
   deploy:
+    if: github.repository == 'Roma-JS/roma-js-opening-slides' # prevents this action from running on forks
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     runs-on: ubuntu-latest
 
     permissions:
