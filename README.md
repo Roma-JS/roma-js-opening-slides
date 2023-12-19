@@ -54,6 +54,11 @@ exec [build](#build) script then run:
 pnpm run preview
 ```
 
+### Deployment
+
+There's a [github action](.github/workflows/deploy.yml) that publishes the slides on Github pages
+whenever [main](https://github.com/Roma-JS/roma-js-opening-slides/tree/main) is updated.
+
 ### Change theme
 
 Add or update the theme config object in the frontmatter of [slides.md](./slides.md).
