@@ -2,11 +2,12 @@
   --brand-primary: #8f001c;
   --brand-secondary: #ffb200;
   --slidev-theme-primary: #222;
+  --slidev-theme-bg-primary: #ffb200;
 }
 
 .slidev-layout {
-  background-color: #ffb200;
-  color: #222;
+  background-color: var(--slidev-theme-bg-primary, #ffb200);
+  color: var(--slidev-theme-primary, #222);
 
   h1 + p {
     @apply -mt-2 opacity-80 mb-4;
