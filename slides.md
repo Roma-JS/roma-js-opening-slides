@@ -11,6 +11,10 @@ info: |
 drawings:
   persist: false
 transition: slide-left
+# used for theme customization, will inject root styles as `--slidev-theme-x` for attribute `x`
+themeConfig:
+  primary: '#ffb200'
+  bg-primary: '#111'
 title: Welcome to RomaJS
 mdc: true
 favicon: https://romajs.org/assets/favicon.ico
@@ -32,7 +36,7 @@ La community di appassionati Javascript a Roma
 <div class="abs-br m-6 flex gap-2">
   <Logo />
 </div>
-<Confetti />
+<Snowfall />
 
 </v-click>
 
@@ -58,10 +62,11 @@ layout: two-cols
 # I nostri contatti
 
 <ul class="mt-7">
-  <li class="flex gap-2 text-2xl"><img width="36" src="/media/social/discord.svg" alt="discord logo" />Discord</li>
-  <li class="flex gap-2 text-2xl"><img width="36" src="/media/social/github.svg" alt="github logo" />Github</li>
-  <li class="flex gap-2 text-2xl"><img width="36" src="/media/social/facebook.svg" alt="facebook logo"/>Facebook </li>
-  <li class="flex gap-2 text-2xl"><img width="36" src="/media/social/twitter-square.svg" alt="twitter logo" />Twitter</li>
+  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="discord" size="32" />Discord</li>
+  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="github" size="32" />Github</li>
+  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="youtube" size="32" />Youtube </li>
+  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="facebook" size="32" />Facebook </li>
+  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="twitter" size="32" />Twitter</li>
 </ul>
 
 ::right::

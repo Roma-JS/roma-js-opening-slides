@@ -6,12 +6,16 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "preview": "serve -s dist -l 3030"
   },
   "dependencies": {
     "@slidev/cli": "^0.43.13",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "confetti-js": "^0.0.18"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
   }
 }
