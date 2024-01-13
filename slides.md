@@ -66,7 +66,7 @@ layout: two-cols
   <li class="flex gap-2 items-center text-2xl"><SocialIcon type="github" size="32" />Github</li>
   <li class="flex gap-2 items-center text-2xl"><SocialIcon type="youtube" size="32" />Youtube </li>
   <li class="flex gap-2 items-center text-2xl"><SocialIcon type="facebook" size="32" />Facebook </li>
-  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="twitter" size="32" />Twitter</li>
+  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="twitter" size="32" />X (Twitter)</li>
 </ul>
 
 ::right::
