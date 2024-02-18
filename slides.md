@@ -12,9 +12,6 @@ drawings:
   persist: false
 transition: slide-left
 # used for theme customization, will inject root styles as `--slidev-theme-x` for attribute `x`
-themeConfig:
-  primary: '#ffb200'
-  bg-primary: '#111'
 title: Welcome to RomaJS
 mdc: true
 favicon: https://romajs.org/assets/favicon.ico
@@ -36,7 +33,7 @@ La community di appassionati Javascript a Roma
 <div class="abs-br m-6 flex gap-2">
   <Logo />
 </div>
-<Snowfall />
+<Confetti />
 
 </v-click>
 

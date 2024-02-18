@@ -65,7 +65,7 @@ Add or update the theme config object in the frontmatter of [slides.md](./slides
 
 ```yaml
 # used for theme customization, will inject root styles as `--slidev-theme-x` for attribute `x`
-themeConfig:
+themeConfig: # xmas theme
   primary: '#ffb200'
   bg-primary: '#111'
 ```
