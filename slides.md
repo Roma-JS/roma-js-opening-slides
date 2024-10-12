@@ -174,7 +174,7 @@ layout: intro
 # clona il progetto
 git clone <git-url-della-fork>
 
-# setta la il progetto original come upstream
+# setta il progetto originale come upstream remote
 git remote add upstream <git-url-del-progetto-originale>
 
 # imposta user ed email | opzionale
