@@ -33,8 +33,13 @@ La community di appassionati Javascript a Roma
 <div class="abs-br m-6 flex gap-2">
   <Logo />
 </div>
-<Confetti />
 
+<div class="flex items-center justify-center align-center gap-2 mt-7">
+  <h2>Open source night edition</h2>
+  <SocialIcon type="github" size="32" />
+</div>
+<Confetti />
+<img class="fixed bottom-1 left-1" width="240" height="240" src="https://octodex.github.com/images/manufacturetocat.png" />
 </v-click>
 
 ---
@@ -85,10 +90,136 @@ layout: intro
 layout: intro
 ---
 
-# L'evento di oggi 🚀
+# Si parte! 
 
 ---
 layout: intro
 ---
 
-# Si parte! 
+
+# Open source night 🚀
+
+---
+layout: two-cols
+---
+
+
+# Board dei progetti
+
+## https://github.com/orgs/Roma-JS/projects/2
+
+
+<v-clicks>
+
+- <span class="text-2xl">I partecipanti potranno scegliere una di queste issue e lavorarci.</span>
+
+- <span class="text-2xl">Tra i presenti ci saranno alcuni contributor abituali di progetti open source che offriranno supporto a chi ne ha bisogno.</span>
+
+</v-clicks>
+
+::right::
+
+
+<img class="rounded-md border-4 border-current fixed bottom-2 right-2"  width="280" height="280" src="/media/qrcode/board-progetti.svg" />
+
+---
+
+<h1 class="flex align-center gap-2">Presentazione progetti open source <SocialIcon class="mt-1" type="github" size="32" /></h1>
+
+<div class="mt-10">
+<v-clicks>
+
+- <span class="text-3xl mt-4">A breve mostreremo lascieremo lo spazio per la presenzatione di progetti open source.</span>
+
+- <span class="text-3xl">Chiunque può presentare un progetto a cui sta cuore.</span>
+
+</v-clicks>
+</div>
+
+---
+layout: intro
+---
+
+# L'evento termina alle 23 👋
+
+---
+layout: intro
+---
+
+# Come creare una PR in 5 passaggi
+
+---
+layout: intro
+---
+
+# 1. Crea una fork del progetto al quale vuoi contribuire
+
+---
+layout: intro
+---
+
+<img width="2422" height="1310" src="/media/fork-pic.webp" />
+
+---
+layout: intro
+---
+
+# 2. Clona la fork sul tuo computer e configura git
+
+---
+layout: intro
+---
+
+```bash
+# clona il progetto
+git clone <git-url-della-fork>
+
+# setta la il progetto original come upstream
+git remote add upstream <git-url-del-progetto-originale>
+
+# imposta user ed email | opzionale
+git config user.name 'FirstName Lastname'
+git config user.email 'my-email@gmail.com'
+```
+
+---
+layout: intro
+---
+
+# 3. Crea in una nuova branch le modifiche
+
+---
+layout: center
+---
+
+# git switch -c &lt;nome-della-feature&gt;
+
+---
+layout: intro
+---
+
+# 4. Fai il push delle modifiche
+
+---
+layout: center
+---
+
+# git push -u origin $(git branch --show-current)
+
+---
+layout: intro
+---
+
+# 5. Crea la PR
+
+---
+layout: center
+---
+
+<img width="2416" height="1322" src="/media/pull-request-pic.jpg" />
+
+---
+layout: center
+---
+
+<img width="480" height="480" src="https://octodex.github.com/images/mona-the-rivetertocat.png" />
