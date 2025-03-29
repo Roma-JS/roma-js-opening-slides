@@ -41,9 +41,9 @@ La community di appassionati Javascript a Roma
 
 # Cosa è RomaJS?
 
-RomaJS è una community di appassionati e professionisti del mondo tech.
+<p class="pt-4">RomaJS è una community di appassionati e professionisti del mondo tech.</p>
 
-<v-clicks>
+<v-clicks class="pt-4">
 
 - 📅 **Appuntamento fisso** - ci incontriamo il terzo mercoledì del mese
 - 🧑‍💻 **Aperta a tutti** - non ci sono limiti di esperienza o barriere di nessun tipo per proporre un talk a RomaJS
@@ -59,18 +59,18 @@ layout: two-cols
 # I nostri contatti
 
 <ul class="mt-7">
-  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="discord" size="32" />Discord</li>
-  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="github" size="32" />Github</li>
-  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="youtube" size="32" />Youtube </li>
-  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="facebook" size="32" />Facebook </li>
-  <li class="flex gap-2 items-center text-2xl"><SocialIcon type="twitter" size="32" />X (Twitter)</li>
+  <li class="flex gap-2 items-center text-3xl"><SocialIcon type="discord" size="32" />Discord</li>
+  <li class="flex gap-2 items-center text-3xl"><SocialIcon type="github" size="32" />Github</li>
+  <li class="flex gap-2 items-center text-3xl"><SocialIcon type="youtube" size="32" />Youtube </li>
+  <li class="flex gap-2 items-center text-3xl"><SocialIcon type="facebook" size="32" />Facebook </li>
+  <li class="flex gap-2 items-center text-3xl"><SocialIcon type="twitter" size="32" />X (Twitter)</li>
 </ul>
 
 ::right::
 
 <div class="flex flex-col justify-center items-center w-full mt-16">
 <img width="240" class="rounded-md border-4 border-current" src="/media/qrcode/qrcode-romajs-org.svg" alt="https://romajs.org" />
-<p class="text-2xl !leading-6 text-center">
+<p class="!text-3xl !leading-8 text-center">
 Trovate tutti i nostri contatti sul sito <strong><a href="https://romajs.org">https://romajs.org</a></strong>
 </p>
 </div>
